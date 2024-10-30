@@ -7,12 +7,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DemoTest {
 
-    private Demo calculator = new Demo();
+    private Demo demo = new Demo();
 
     @Test
     public void testAdd() {
-        assertEquals(5, calculator.add(2, 3));
-        assertEquals(0, calculator.add(-1, 1));
-        assertEquals(-3, calculator.add(-1, -2));
+        assertEquals(5, demo.add(2, 3));
+        assertEquals(0, demo.add(-1, 1));
+        assertEquals(-3, demo.add(-1, -2));
     }
 }
