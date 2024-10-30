@@ -1,3 +1,5 @@
+package org.examole;
+
 import org.example.Demo;
 import org.junit.jupiter.api.Test;
 
